@@ -1,0 +1,37 @@
+[Test 4]
+This is my log file: 11/17/2016 5:20:31 PM
+Total distance: 661.004
+Total angle rotated camera: 6275700
+Total angle translated camera: 273295.3
+Total time: 889.7845
+# Pressed 2 - Left: 37
+# Pressed 3 - Left: 1
+# Pressed 4 - Left: 0
+# Pressed Bumper - Left: 10
+# Pressed Trigger - Left: 0
+# Pressed 1 - Right: 0
+# Pressed 4 - Right: 0
+# Pressed 3 - Right: 0
+# Pressed Bumper - Right: 37
+# Pressed Trigger - Right: 1
+Number of errors: 10
+Passed? False
+
+[Test 3]
+This is my log file: 11/17/2016 5:24:50 PM
+Total distance: 52.00003
+Total angle rotated camera: 36360
+Total angle translated camera: 22161.39
+Total time: 207.6873
+# Pressed 2 - Left: 44
+# Pressed 3 - Left: 0
+# Pressed 4 - Left: 0
+# Pressed Bumper - Left: 0
+# Pressed Trigger - Left: 0
+# Pressed 1 - Right: 0
+# Pressed 4 - Right: 0
+# Pressed 3 - Right: 0
+# Pressed Bumper - Right: 0
+# Pressed Trigger - Right: 2
+Number of errors: 21
+Passed? False
