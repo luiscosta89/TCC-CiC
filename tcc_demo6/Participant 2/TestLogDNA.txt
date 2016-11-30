@@ -27,11 +27,11 @@ Total time: 127.8525
 # Pressed 3 - Left: 0
 # Pressed 4 - Left: 0
 # Pressed Bumper - Left: 0
-# Pressed Trigger - Left: 3
+# Pressed Trigger - Left: 2
 # Pressed 1 - Right: 13
 # Pressed 4 - Right: 0
 # Pressed 3 - Right: 0
-# Pressed Bumper - Right: 3
+# Pressed Bumper - Right: 0
 # Pressed Trigger - Right: 14
 Number of errors: 0
 Passed? True

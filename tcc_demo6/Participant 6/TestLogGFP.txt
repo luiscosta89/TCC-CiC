@@ -14,14 +14,14 @@ Total time: 889.7845
 # Pressed 3 - Right: 0
 # Pressed Bumper - Right: 37
 # Pressed Trigger - Right: 1
-Number of errors: 10
+Number of errors: 11
 Passed? False
 
 [Test 3]
 This is my log file: 11/17/2016 5:24:50 PM
 Total distance: 52.00003
-Total angle rotated camera: 36360
-Total angle translated camera: 22161.39
+Total angle rotated camera: 0.0
+Total angle translated camera: 0.0
 Total time: 207.6873
 # Pressed 2 - Left: 44
 # Pressed 3 - Left: 0
@@ -33,5 +33,5 @@ Total time: 207.6873
 # Pressed 3 - Right: 0
 # Pressed Bumper - Right: 0
 # Pressed Trigger - Right: 2
-Number of errors: 21
+Number of errors: 39
 Passed? False

@@ -14,7 +14,7 @@ Total time: 176.4303
 # Pressed 3 - Right: 1
 # Pressed Bumper - Right: 1
 # Pressed Trigger - Right: 20
-Number of errors: 3
+Number of errors: 4
 Passed? True
 
 [Test 1]

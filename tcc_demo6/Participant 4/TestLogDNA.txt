@@ -20,8 +20,8 @@ Passed? False
 [Test 1]
 This is my log file: 11/17/2016 4:02:09 PM
 Total distance: 185.586
-Total angle rotated camera: 552960
-Total angle translated camera: 22199.02
+Total angle rotated camera: 0.0
+Total angle translated camera: 0.0
 Total time: 113.2951
 # Pressed 2 - Left: 18
 # Pressed 3 - Left: 0

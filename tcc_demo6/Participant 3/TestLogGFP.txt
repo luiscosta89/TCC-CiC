@@ -13,8 +13,8 @@ Total time: 84.12046
 # Pressed 4 - Right: 0
 # Pressed 3 - Right: 0
 # Pressed Bumper - Right: 1
-# Pressed Trigger - Right: 3
-Number of errors: 6
+# Pressed Trigger - Right: 0
+Number of errors: 13
 Passed? False
 
 [Teste 4]
@@ -32,6 +32,6 @@ Total time: 51.24432
 # Pressed 4 - Right: 0
 # Pressed 3 - Right: 0
 # Pressed Bumper - Right: 0
-# Pressed Trigger - Right: 1
-Number of errors: 2
+# Pressed Trigger - Right: 0
+Number of errors: 4
 Passed? False
