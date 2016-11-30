@@ -53,6 +53,8 @@ public class GenerateLogFile : MonoBehaviour {
 	private GameObject final;
 	private bool passed = false;
 
+	private int newErrors = 0;
+
 	//Filenames
 	private string filenameDNA = "TestLogDNA.txt";
 	private string filenameGFP = "TestLogGFP.txt";
@@ -142,9 +144,13 @@ public class GenerateLogFile : MonoBehaviour {
 			camLastPos = cam.transform.localEulerAngles;
 
 					
-		if(Input.GetKeyDown(KeyCode.T) && activeScene != "tutorial"){
-				WriteFile ();
-				UnityEditor.EditorApplication.isPlaying = false;
+		if (Input.GetKeyDown (KeyCode.T) && activeScene != "tutorial") {
+				
+			//Add errors before recording data;
+			unselectErrors.numError += threeLeft + fourRight;
+		
+			WriteFile ();
+			UnityEditor.EditorApplication.isPlaying = false;
 			}
 	
 		}
@@ -154,12 +160,21 @@ public class GenerateLogFile : MonoBehaviour {
 		switch(activeScene) {
 		case "dna":
 			currentFile = filenameDNA;
+			if (twoLeft + oneRight != 16) {
+				newErrors = (twoLeft + oneRight) - unselectErrors.numError;
+				unselectErrors.numError += newErrors;
+			}
 			break;
 		case "green":
 			currentFile = filenameGFP;
+			if (twoLeft + oneRight != 7) {
+				newErrors = (twoLeft + oneRight) - unselectErrors.numError;
+				unselectErrors.numError += newErrors + triggerLeft + triggerRight;
+			}
 			break;
 		case "hemo":
 			currentFile = filenameHEMO;
+			unselectErrors.numError += bumperLeft + bumperRight;
 			break;
 		}
 
