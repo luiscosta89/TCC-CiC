@@ -7,4 +7,4 @@ and keyboard or use VR equipmment such as the Razer Hydra controller and the Ocu
 detailed study was conducted with users to confirm that the immersive approach is better in several points when compared to non-
 immersive approaches.
 
-The study was published at the SVR 2017: https://ieeexplore.ieee.org/document/8114434/
+The study was published at the [SVR 2017](https://ieeexplore.ieee.org/document/8114434/).
